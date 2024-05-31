@@ -1,4 +1,6 @@
 .main-container {
+  padding-top: 50px;
+  /* Adjust this value based on your navbar's height */
   display: flex;
   background-color: rgb(206, 231, 238);
 }
