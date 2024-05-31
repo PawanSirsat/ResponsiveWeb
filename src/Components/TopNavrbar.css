@@ -1,0 +1,63 @@
+.navbar {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 20px;
+ background-color: #0f68db;
+ color: #fff;
+}
+
+.logo {
+ margin-right: 10px;
+}
+
+.brand-name {
+ font-weight: bold;
+}
+
+.profile-photo {
+ cursor: pointer;
+ border-radius: 50%;
+ width: 40px;
+ height: 40px;
+ align-items: center;
+ transform: scale(1, 1);
+}
+
+.btn-pink {
+ background-color: rgb(252, 12, 108);
+ border-color: rgb(246, 5, 101);
+ margin-right: 30px;
+}
+
+.btn-pink:hover {
+ background-color: rgb(246, 58, 89);
+ color: white;
+ border-color: rgb(249, 27, 101);
+}
+
+.toggle-right {
+ display: none;
+}
+
+@media (max-width: 768px) {
+ .btn-pink {
+  background-color: rgb(255 6 105);
+  border-color: rgb(136, 2, 55);
+  margin-right: 5px;
+ }
+
+ .right {
+  display: none;
+ }
+
+ .toggle-right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+ }
+
+ .toggle-right.show {
+  display: flex;
+ }
+}
